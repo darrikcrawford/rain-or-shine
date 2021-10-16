@@ -1,0 +1,11 @@
+#header-title {
+    background-image: linear-gradient(to right, black, rgb(3, 102, 214), lightblue);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+}
+
+#city-search {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+
+}

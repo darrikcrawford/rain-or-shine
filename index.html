@@ -5,14 +5,53 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Rain or Shine</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-	<link rel="stylesheet" href="/assests/css/">
+	<link rel="stylesheet" href="./assests/css/style.css">
+
 </head>
 <body>
 	<header>
-
+		<div class="has-background-info m-5 has-text-white has-text-centered ">
+			<h1 id="header-title" class="is-size-3 p-2">Rain or Shine Weather</h1>
+	</div>
 	</header>
-	
 
+  <main class="columns is-centered m-6">
+    <div class="column is-one-third has-background-light m-2">
+      <div class="m-5">
+        <h2 class="is-size-4">
+          <p id="city-search" class="mb-4"> Search City</p>
+          <div class="field has-addons">
+            <div class="control ">
+              <input class="input" type="text" placeholder="City Name">
+            </div>
+            <div class="control">
+              <a class="button is-info">
+                Search
+              </a>
+            </div>
+          </div>
+          <div id="previous-searches" class="mt-4">
+
+          </div>
+        </h2>
+      </div>
+    </div>
+
+    <div class="column has-background-light is-two-thirds m-2">
+      <div id="todays-weather" class=""></div>
+    </div>
+  </main>
+
+  <div class="columns m-6 is-centered">
+    <div id="5d-forcast" class="column has-background-light is-three-quarters m-2">
+
+    </div>
+  </div>
+
+
+  <script src="./assests/js/script.js" ></script>
 </body>
 </html>
